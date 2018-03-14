@@ -295,7 +295,7 @@ if (isset($_POST['update'])) {
                 "data": "anno"
             }, {
                 "data": "materia",
-                "searchable": false,
+                "searchable": true,
                 "sortable": false
             }, {
                 "data": "pdf",

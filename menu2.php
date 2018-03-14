@@ -248,7 +248,7 @@ if (isset($_POST['delete']))
                     "width" :"40px"
                 }, {
                     "data": "materia",
-                "searchable": false,
+                "searchable": true,
                 "sortable": false
                 }, {
                     "data": "pdf",
