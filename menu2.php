@@ -101,7 +101,7 @@ if (isset($_POST['subir']))
 	$temp_name = $_FILES['file']['tmp_name'];
 	$tipo = $_FILES['file']['type'];
 	$location = 'file/';
-	$maxsize = 2097152;
+	$maxsize = 15097152;
 	$acceptable = array('application/pdf');
      $fecha=strtotime($fecha);
      $hoy=date('Y',$fecha);
