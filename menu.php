@@ -94,7 +94,7 @@
                 </div>
             </div>
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+  <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Ventana de edición</h5>
@@ -104,17 +104,18 @@
       </div> 
       <form action="" method="post" name="submit"> 
       <div class="modal-body">
-            <input type="hidden" name="new_decreto_id" id="new_decreto_id" >
-          <div class="form-group">
-            <label for="new_decreto" class="form-control-label">N° decreto:</label>
+         <input type="hidden" name="new_decreto_id" id="new_decreto_id" >
+         <div class="form-group">
+            <label for="new_decreto" class="col-form-label">N° decreto:</label>
             <input type="text" class="form-control" id="new_decreto" name="new_decreto">
           </div>
+
           <div class="form-group">
-            <label for="new_fecha" class="form-control-label">Fecha:</label>
-            <input type="date" class="form-control col-sm-2" id="new_fecha" name="new_fecha">
+              <label for="new_fecha" class="form-control-label">Fecha:</label> 
+            <input type="date" class="form-control" id="new_fecha" name="new_fecha">
           </div>
           <div class="form-group">
-            <label for="new_materia" class="form-control-label">Materia:</label>
+            <label for="new_materia" class="col-form-label">Materia:</label>
             <textarea class="form-control" id="new_materia" name="new_materia" rows="4"></textarea>
           </div>
       </div>
